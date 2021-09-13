@@ -1,0 +1,27 @@
+#HeadingContainer {
+  display: flex;
+}
+
+.font_lx {
+  font-size: var(--font-lx);
+}
+
+.font_mx {
+  font-size: var(--font-ml);
+}
+.font_sx {
+  font-size: var(--font-sx);
+}
+.font_ls {
+  font-size: var(--font-ls);
+}
+.font_ms {
+  font-size: var(--font-ms);
+}
+.font_ss {
+  font-size: var(--font-ss);
+}
+
+.isUppercase {
+  text-transform: uppercase;
+}

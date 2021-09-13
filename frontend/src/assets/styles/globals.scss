@@ -13,6 +13,53 @@
 
   --blue-500: #61dcfb;
   --yellow-500: #eba417;
+
+  --font-lx: 7.594rem;
+  --font-mx: 5.063rem;
+  --font-sx: 3.375rem;
+  --font-ls: 2.25rem;
+  --font-ms: 1.5rem;
+  --font-ss: 1rem;
+}
+
+.color_white-900 {
+  color: var(--white-900);
+}
+
+.bgcolor_white-900 {
+  background: var(--white-900);
+}
+
+.color_black-500 {
+  color: var(--black-500);
+}
+
+.bgcolor_black-500 {
+  background: var(--black-500);
+}
+
+.black-900 {
+  color: var(--black-900);
+}
+
+.bgcolor_black-900 {
+  background: var(--black-900);
+}
+
+.color_gray-100 {
+  color: var(--gray-100);
+}
+
+.bgcolor_gray-100 {
+  background: var(--gray-100);
+}
+
+.color_gray-300 {
+  color: var(--gray-300);
+}
+
+.bgcolor_gray-300 {
+  background: var(--gray-300);
 }
 
 body {
@@ -25,7 +72,7 @@ input,
 textarea,
 select,
 button {
-  font: 400 1rem "Roboto", sans-serif;
+  font: 400 1rem 'Roboto', sans-serif;
 }
 
 button {
@@ -56,7 +103,6 @@ ul {
 /* Utilities */
 .container {
   width: 100%;
-  
 }
 .content {
   width: 95%;
@@ -78,9 +124,6 @@ ul {
 .lead {
   font-size: 1.5rem;
   margin-bottom: 1rem;
-}
-.text-center {
-  text-align: center;
 }
 .text-primary {
   color: var(--primary-color);
@@ -131,6 +174,7 @@ ul {
 .list li {
   padding-bottom: 0.3rem;
 }
+
 /* Padding */
 .p {
   padding: 0.5rem;
@@ -332,7 +376,7 @@ table th {
 
 .imgContent {
   height: 100vh;
-  background-image: url("/images/avatar.svg");
+  background-image: url('/images/avatar.svg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: auto;
@@ -365,7 +409,7 @@ table th {
   font-weight: bold;
 
   &::after {
-    content: "";
+    content: '';
     position: absolute;
     width: 59px;
     height: 3px;
